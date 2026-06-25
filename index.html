@@ -951,6 +951,43 @@
       }
     }
 
+  
+
+    /* Final hero alignment fix: remove large blank space on the left */
+    .hero {
+      padding-top: 28px !important;
+      padding-bottom: 64px !important;
+    }
+
+    .hero-grid {
+      align-items: start !important;
+      gap: 52px !important;
+    }
+
+    .hero-grid > div:first-child {
+      padding-top: 8px !important;
+    }
+
+    .hero h1 {
+      font-weight: 500 !important;
+      letter-spacing: -0.045em !important;
+      line-height: 1.08 !important;
+    }
+
+    .hero .eyebrow {
+      margin-top: 0 !important;
+      margin-bottom: 16px !important;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        padding-top: 22px !important;
+      }
+      .hero-grid > div:first-child {
+        padding-top: 0 !important;
+      }
+    }
+
   </style>
 
   <!-- Meta Pixel Code -->
